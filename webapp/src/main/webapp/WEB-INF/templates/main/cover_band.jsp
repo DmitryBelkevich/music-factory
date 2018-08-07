@@ -3,9 +3,7 @@
 <section>
     <div class="container-fluid bg-secondary">
 
-        <h1>Cover Band</h1>
-
-        <p>Профессиональный кавербенд на ваш корпоратив</p>
+        <p>Профессиональный кавербенд на Ваш праздник/корпоратив</p>
 
     </div>
 </section>

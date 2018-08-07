@@ -3,7 +3,7 @@
 <section>
     <div class="container-fluid bg-secondary">
 
-        <h1>poster</h1>
+        <h1>Афиша концертов</h1>
 
     </div>
 </section>
