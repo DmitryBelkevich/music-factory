@@ -39,6 +39,7 @@
 <jsp:include page="../templates/cover_band/demo.jsp"/>
 <jsp:include page="../templates/cover_band/photos.jsp"/>
 <jsp:include page="../templates/cover_band/poster.jsp"/>
+<jsp:include page="../templates/cover_band/order.jsp"/>
 
 <jsp:include page="../templates/footer.jsp"/>
 
