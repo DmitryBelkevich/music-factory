@@ -16,7 +16,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="/">Cover-band</a>
+                    <a class="nav-link" href="/cover_band">Cover-band</a>
                 </li>
 
                 <li class="nav-item">
