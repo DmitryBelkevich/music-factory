@@ -39,6 +39,7 @@
 
 <jsp:include page="../templates/main/cover_band.jsp"/>
 <jsp:include page="../templates/main/services.jsp"/>
+<jsp:include page="../templates/main/services2.jsp"/>
 
 <jsp:include page="../templates/footer.jsp"/>
 
