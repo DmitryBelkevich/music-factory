@@ -1,3 +1,12 @@
+-- bands by genres
+
+SELECT *
+FROM bands
+       LEFT JOIN bands_genres_relations ON bands.id = bands_genres_relations.band_id
+WHERE bands_genres_relations.genre_id IN (1, 4);
+
+-- songs by status
+
 SELECT songs.id,
        bands.title                              AS band,
        songs.title                              AS song,
