@@ -2,7 +2,7 @@
 
 SELECT *
 FROM bands
-            LEFT JOIN bands_countries_relations ON bands.id = bands_countries_relations.band_id
+       LEFT JOIN bands_countries_relations ON bands.id = bands_countries_relations.band_id
 WHERE bands_countries_relations.country_id IN (1, 5);
 
 -- bands by genres

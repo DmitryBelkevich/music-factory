@@ -16,7 +16,7 @@ CREATE TABLE bands (
 );
 
 CREATE TABLE bands_countries_relations (
-  band_id  INTEGER,
+  band_id    INTEGER,
   country_id INTEGER,
   FOREIGN KEY (band_id) REFERENCES bands (id) ON UPDATE CASCADE ON DELETE CASCADE,
   FOREIGN KEY (country_id) REFERENCES countries (id) ON UPDATE CASCADE ON DELETE CASCADE
