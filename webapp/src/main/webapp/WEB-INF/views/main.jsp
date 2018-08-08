@@ -37,6 +37,7 @@
 
 <jsp:include page="../templates/header.jsp"/>
 
+<jsp:include page="../templates/main/welcome.jsp"/>
 <jsp:include page="../templates/main/cover_band.jsp"/>
 <jsp:include page="../templates/main/services.jsp"/>
 <jsp:include page="../templates/main/services2.jsp"/>
