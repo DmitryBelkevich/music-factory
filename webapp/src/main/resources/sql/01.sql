@@ -11,9 +11,14 @@ CREATE TABLE genres (
 CREATE TABLE bands (
   id               BIGINT PRIMARY KEY,
   title            VARCHAR(1024),
-  country_id       INTEGER,
   date_creation    SMALLINT,
-  date_destruction SMALLINT,
+  date_destruction SMALLINT
+);
+
+CREATE TABLE bands_countries_relations (
+  band_id  INTEGER,
+  country_id INTEGER,
+  FOREIGN KEY (band_id) REFERENCES bands (id) ON UPDATE CASCADE ON DELETE CASCADE,
   FOREIGN KEY (country_id) REFERENCES countries (id) ON UPDATE CASCADE ON DELETE CASCADE
 );
 
