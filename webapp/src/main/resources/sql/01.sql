@@ -11,19 +11,17 @@ CREATE TABLE genres (
 CREATE TABLE bands (
   id               BIGINT PRIMARY KEY,
   title            VARCHAR(1024),
-  genre_id         INTEGER,
   country_id       INTEGER,
   date_creation    SMALLINT,
   date_destruction SMALLINT,
-  FOREIGN KEY (genre_id) REFERENCES genres (id) ON UPDATE CASCADE ON DELETE CASCADE,
   FOREIGN KEY (country_id) REFERENCES countries (id) ON UPDATE CASCADE ON DELETE CASCADE
 );
 
-CREATE TABLE genres_bands_relations (
-  genre_id INTEGER,
+CREATE TABLE bands_genres_relations (
   band_id  INTEGER,
-  FOREIGN KEY (genre_id) REFERENCES genres (id) ON UPDATE CASCADE ON DELETE CASCADE,
-  FOREIGN KEY (band_id) REFERENCES bands (id) ON UPDATE CASCADE ON DELETE CASCADE
+  genre_id INTEGER,
+  FOREIGN KEY (band_id) REFERENCES bands (id) ON UPDATE CASCADE ON DELETE CASCADE,
+  FOREIGN KEY (genre_id) REFERENCES genres (id) ON UPDATE CASCADE ON DELETE CASCADE
 );
 
 CREATE TABLE albums (
