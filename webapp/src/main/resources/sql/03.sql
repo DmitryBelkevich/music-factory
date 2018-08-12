@@ -157,7 +157,7 @@ VALUES (1, 4),
 INSERT INTO songs (id, band_id, title, key_signature)
 VALUES (1, 1, 'All That She Wants', 4),
        (2, 2, 'No Roots', 2),
-       (3, 3, 'Staying alive', NULL),
+       (3, 3, 'Stayin'' Alive', NULL),
        (4, 4, 'It''s My Life', -3),
        (5, 5, 'Sunny', -3),
        (6, 6, 'Runaway Baby', 6),
