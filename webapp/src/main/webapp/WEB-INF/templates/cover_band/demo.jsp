@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <section>
-    <div class="container-fluid bg-danger">
+    <div class="container-fluid bg-danger" id="block1">
 
         <p>000 - лучший кавербенд для вашего праздника/корпоратива</p>
 
