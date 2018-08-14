@@ -66,7 +66,8 @@ VALUES (1, 'Ace of Base', '1990', '2012'),
        (38, 'Мумий Тролль', '1983', NULL),
        (39, 'Океан Эльзы', '1994', NULL),
        (40, 'Сплин', '1994', NULL),
-       (41, 'Чичерина', '1997', NULL);
+       (41, 'Чичерина', '1997', NULL),
+       (42, 'Би-2', '1998', NULL);
 
 INSERT INTO bands_countries_relations (band_id, country_id)
 VALUES (1, 6),
@@ -109,7 +110,8 @@ VALUES (1, 6),
        (38, 5),
        (39, 7),
        (40, 5),
-       (41, 5);
+       (41, 5),
+       (42, 5);
 
 INSERT INTO bands_genres_relations (band_id, genre_id)
 VALUES (1, 4),
