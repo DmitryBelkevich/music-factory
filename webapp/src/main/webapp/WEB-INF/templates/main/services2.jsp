@@ -1,10 +1,8 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
-<section>
-    <div class="container-fluid bg-success" id="block1">
+<div id="block1" class="container-fluid bg-success">
 
-        <p>Хочу заказать минусовку/партитуру (ноты) трека</p>
-        <a href="/">поехали</a>
+    <p>Хочу заказать минусовку/партитуру (ноты) трека</p>
+    <a href="/">поехали</a>
 
-    </div>
-</section>
+</div>
