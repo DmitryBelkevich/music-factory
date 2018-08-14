@@ -5,6 +5,7 @@
 
 <%-- css --%>
 <spring:url value="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" var="bootstrapCss"/>
+<spring:url value="/resources/css/main.css" var="mainCss"/>
 
 <%-- js --%>
 <spring:url value="https://code.jquery.com/jquery-3.3.1.slim.min.js" var="jqueryJs"/>
@@ -21,6 +22,7 @@
     <link rel="stylesheet" href="${bootstrapCss}"
           integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
           crossorigin="anonymous">
+    <link rel="stylesheet" href="${mainCss}">
 
     <%-- js --%>
     <script src="${jqueryJs}"
