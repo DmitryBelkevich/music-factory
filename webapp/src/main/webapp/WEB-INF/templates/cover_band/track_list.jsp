@@ -5,10 +5,10 @@
 
     <h1>Репертуар:</h1>
 
-    <table class="table">
+    <table class="table table-hover table-sm">
         <thead>
         <tr>
-            <th>Зарубежные песни</th>
+            <th scope="col">Зарубежные песни</th>
         </tr>
         </thead>
         <tbody>
@@ -20,10 +20,10 @@
         </tbody>
     </table>
 
-    <table class="table">
+    <table class="table table-hover table-sm">
         <thead>
         <tr>
-            <th>Русские песни</th>
+            <th scope="col">Русские песни</th>
         </tr>
         </thead>
         <tbody>
