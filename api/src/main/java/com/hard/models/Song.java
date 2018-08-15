@@ -12,15 +12,6 @@ public class Song extends AbstractModel {
     @Column(name = "title")
     private String title;
 
-    public Song() {
-
-    }
-
-    public Song(Band band, String title) {
-        this.band = band;
-        this.title = title;
-    }
-
     public Band getBand() {
         return band;
     }
