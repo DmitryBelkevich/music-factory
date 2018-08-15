@@ -1,12 +1,15 @@
 package com.hard.models;
 
-import javax.persistence.Entity;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "songs")
 public class Song extends AbstractModel {
+    @OneToOne
+    @JoinColumn(name = "band_id", nullable = false)
     private Band band;
+
+    @Column(name = "title")
     private String title;
 
     public Song() {
