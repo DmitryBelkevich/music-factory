@@ -1,7 +1,7 @@
 package com.hard.controllers;
 
 import com.hard.models.Song;
-import com.hard.services.impl.SongService;
+import com.hard.services.SongService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -20,7 +20,7 @@ public class CoverBandController {
     public ModelAndView songs() {
         ModelAndView modelAndView = new ModelAndView("cover_band");
 
-        Collection<Song> songs = songService.getAll();
+        Collection<Song> songs = songService.getAll(null);
 
         modelAndView.addObject("songs", songs);
 
