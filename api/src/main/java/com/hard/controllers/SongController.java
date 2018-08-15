@@ -26,7 +26,7 @@ public class SongController {
     public ResponseEntity<Collection<Song>> getAll() {
         HttpStatus httpStatus;
 
-        Collection<Song> songs = songService.getAll();
+        Collection<Song> songs = songService.getAll(null);
 
         HttpHeaders headers = new HttpHeaders();
         headers.add(HttpHeaders.ACCESS_CONTROL_ALLOW_ORIGIN, "*");
