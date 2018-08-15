@@ -1,8 +1,7 @@
 package com.hard.models;
 
-public class Song {
+public class Band {
     private long id;
-    private Band band;
     private String title;
 
     public long getId() {
@@ -11,14 +10,6 @@ public class Song {
 
     public void setId(long id) {
         this.id = id;
-    }
-
-    public Band getBand() {
-        return band;
-    }
-
-    public void setBand(Band band) {
-        this.band = band;
     }
 
     public String getTitle() {
