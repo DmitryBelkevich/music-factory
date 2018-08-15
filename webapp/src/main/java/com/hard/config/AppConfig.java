@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @ComponentScan({
         "com.hard.config",
-        "com.hard.repositories",
+        "com.hard.repositories.impl",
         "com.hard.services.impl",
 })
 public class AppConfig {
