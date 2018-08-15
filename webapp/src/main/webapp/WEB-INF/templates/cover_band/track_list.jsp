@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <div id="block1" class="container-fluid bg-warning">
@@ -11,12 +12,11 @@
         </tr>
         </thead>
         <tbody>
-        <tr>
-            <td>track-1</td>
-        </tr>
-        <tr>
-            <td>track-2</td>
-        </tr>
+        <c:forEach items="${songs}" var="song">
+            <tr>
+                <td>${song}</td>
+            </tr>
+        </c:forEach>
         </tbody>
     </table>
 
@@ -27,12 +27,11 @@
         </tr>
         </thead>
         <tbody>
-        <tr>
-            <td>track-1</td>
-        </tr>
-        <tr>
-            <td>track-2</td>
-        </tr>
+        <c:forEach items="${songs}" var="song">
+            <tr>
+                <td>${song}</td>
+            </tr>
+        </c:forEach>
         </tbody>
     </table>
 
