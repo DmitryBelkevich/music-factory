@@ -17,7 +17,7 @@ public class CoverBandController {
     private SongService songService;
 
     @GetMapping(value = "")
-    public ModelAndView main() {
+    public ModelAndView songs() {
         ModelAndView modelAndView = new ModelAndView("cover_band");
 
         Collection<Song> songs = songService.getAll();
