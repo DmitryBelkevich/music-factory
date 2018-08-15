@@ -14,7 +14,7 @@
         <tbody>
         <c:forEach items="${songs}" var="song">
             <tr>
-                <td>${song}</td>
+                <td>${song.band.title} - ${song.title}</td>
             </tr>
         </c:forEach>
         </tbody>
@@ -29,7 +29,7 @@
         <tbody>
         <c:forEach items="${songs}" var="song">
             <tr>
-                <td>${song}</td>
+                <td>${song.band.title} - ${song.title}</td>
             </tr>
         </c:forEach>
         </tbody>

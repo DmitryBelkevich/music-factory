@@ -5,6 +5,11 @@ public class Song {
     private Band band;
     private String title;
 
+    public Song(Band band, String title) {
+        this.band = band;
+        this.title = title;
+    }
+
     public long getId() {
         return id;
     }
