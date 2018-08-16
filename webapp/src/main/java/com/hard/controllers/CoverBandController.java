@@ -23,13 +23,14 @@ public class CoverBandController {
     public ModelAndView songs() {
         ModelAndView modelAndView = new ModelAndView("cover_band");
 
-        CountrySpecification countrySpecification = new CountrySpecification(new long[]{1, 5, 7});
+        CountrySpecification russianCountrySpecification = new CountrySpecification(new long[]{1, 4, 5, 7});
+        Collection<Song> russianSongs = songService.getAll(new AndSpecification(russianCountrySpecification));
 
-        Specification andSpecification = new AndSpecification(countrySpecification);
+        CountrySpecification foreignCountrySpecification = new CountrySpecification(new long[]{2, 3, 6, 8, 9});
+        Collection<Song> foreignSongs = songService.getAll(new AndSpecification(foreignCountrySpecification));
 
-        Collection<Song> songs = songService.getAll(andSpecification);
-
-        modelAndView.addObject("songs", songs);
+        modelAndView.addObject("russianSongs", russianSongs);
+        modelAndView.addObject("foreignSongs", foreignSongs);
 
         return modelAndView;
     }
