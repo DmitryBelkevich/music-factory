@@ -2,6 +2,9 @@ package com.hard.controllers;
 
 import com.hard.models.Song;
 import com.hard.services.SongService;
+import com.hard.specifications.AndSpecification;
+import com.hard.specifications.CountrySpecification;
+import com.hard.specifications.Specification;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -20,7 +23,11 @@ public class CoverBandController {
     public ModelAndView songs() {
         ModelAndView modelAndView = new ModelAndView("cover_band");
 
-        Collection<Song> songs = songService.getAll(null);
+        CountrySpecification countrySpecification = new CountrySpecification(new long[]{1, 5, 7});
+
+        Specification andSpecification = new AndSpecification(countrySpecification);
+
+        Collection<Song> songs = songService.getAll(andSpecification);
 
         modelAndView.addObject("songs", songs);
 

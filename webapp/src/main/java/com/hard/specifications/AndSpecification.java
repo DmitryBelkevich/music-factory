@@ -16,11 +16,15 @@ public class AndSpecification<T> implements Specification<T> {
     }
 
     @Override
-    public String getRequestParams() {
+    public String getRequestParam() {
         StringBuilder stringBuilder = new StringBuilder();
 
         for (int i = 0; i < specifications.size(); i++) {
-            stringBuilder.append(specifications.get(i).getRequestParams());
+            Specification specification = specifications.get(i);
+
+            String requestParam = specification.getRequestParam();
+
+            stringBuilder.append(requestParam);
 
             if (i + 1 < specifications.size())
                 stringBuilder.append("&");

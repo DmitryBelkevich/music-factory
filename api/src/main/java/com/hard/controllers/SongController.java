@@ -20,7 +20,9 @@ public class SongController {
     private SongService songService;
 
     @GetMapping(value = "")
-    public ResponseEntity<Collection<Song>> getAll() {
+    public ResponseEntity<Collection<Song>> getAll(
+            @RequestParam(name = "countries", required = false) Long[] countries
+    ) {
         HttpStatus httpStatus = HttpStatus.NO_CONTENT;
 
         HttpHeaders headers = new HttpHeaders();
