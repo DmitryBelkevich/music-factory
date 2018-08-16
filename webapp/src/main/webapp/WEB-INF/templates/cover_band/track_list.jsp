@@ -3,6 +3,8 @@
 
 <div id="block1" class="container-fluid bg-warning">
 
+    <h3>Мы можем подобрать для Вас репертуар в любом стиле, который подойдёт для вашего праздника</h3>
+
     <h1>Репертуар:</h1>
 
     <table class="table table-hover table-sm">
