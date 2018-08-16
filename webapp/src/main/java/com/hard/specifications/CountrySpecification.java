@@ -14,15 +14,13 @@ public class CountrySpecification implements Specification {
 
         StringBuilder stringBuilder = new StringBuilder("countries=");
 
-        boolean first = true;
-        for (long id : ids) {
-            if (first) {
-                stringBuilder.append(id);
-                first = false;
-            } else {
+        for (int i = 0; i < ids.length; i++) {
+            long id = ids[i];
+
+            stringBuilder.append(id);
+
+            if (i + 1 < ids.length)
                 stringBuilder.append(",");
-                stringBuilder.append(id);
-            }
         }
 
         return stringBuilder.toString();
