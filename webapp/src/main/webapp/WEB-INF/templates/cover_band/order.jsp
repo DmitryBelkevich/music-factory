@@ -2,7 +2,6 @@
 
 <div id="main-block1" class="container-fluid bg-info main-bg1">
 
-    <%--<p>Расчёт стоимости</p>--%>
     <h1>Заказать кавер бенд на Ваш праздник/корпоратив</h1>
 
     <p>состав:</p>
@@ -18,7 +17,10 @@
 
     <p>выбрать дату</p>
     <p>выбрать время</p>
-    <p>проверить</p>
+
+    <%--<jsp:include page="calendar.jsp"/>--%>
+
+    <button type="button" class="btn btn-light">проверить</button>
 
     <button type="button" class="btn btn-dark">Заказать</button>
 
