@@ -51,7 +51,7 @@ VALUES (1, 1, 4, 1),
        (1, 47, 0, 1),
        (1, 48, -3, 1);
 
-INSERT INTO performance (id, title, location, date)
+INSERT INTO performances (id, title, location, date)
 VALUES (1, null, 'Минск, ул.Октябрьская', '2018-12-01 19:00'),
        (2, null, 'Минск, ул.Зыбицкая', '2018-12-02 19:00'),
        (3, null, 'Санкт-Петербург, ул.Набережная канала Грибоедова', '2018-12-03 19:00'),
