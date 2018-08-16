@@ -1,7 +1,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
-<div id="block1" class="container-fluid bg-warning">
+<div id="main-block1" class="container-fluid bg-warning">
     <div class="main-bg1">
 
         <h3>Мы можем подобрать для Вас репертуар в любом стиле, который подойдёт для вашего праздника</h3>

@@ -1,6 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
-<div id="block1" class="container-fluid bg-primary">
+<div id="main-block1" class="container-fluid bg-primary">
     <div class="main-bg1">
 
         <h1>Афиша концертов и выступлений:</h1>
