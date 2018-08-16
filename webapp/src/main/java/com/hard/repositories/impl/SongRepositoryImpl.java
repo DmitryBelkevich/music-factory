@@ -20,7 +20,7 @@ public class SongRepositoryImpl implements SongRepository {
     @Override
     public Collection<Song> getAll(Specification<Song> specification) {
         RestTemplate restTemplate = new RestTemplate();
-        String url = apiUrl + "/songs" + "?" + specification.getRequestParam();
+        String url = apiUrl + "/songs" + specification.getRequestParam();
 
         ParameterizedTypeReference typeReference = new ParameterizedTypeReference<Collection<Song>>() {
         };
