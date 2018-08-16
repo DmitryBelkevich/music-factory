@@ -12,15 +12,17 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="https://i.ebayimg.com/images/g/9nQAAOSwQE1bM744/s-l1600.jpg"
+                <img class="d-block w-100"
+                     src="https://cdn.lifehacker.ru/wp-content/uploads/2016/09/concert_1474028386-1140x570.jpg"
                      alt="First slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="https://i.ebayimg.com/images/g/OrkAAOSwYq5baF05/s-l1600.jpg"
+                <img class="d-block w-100" src="http://showcatalog.by/Shutterstock/Concert-Banner.jpg"
                      alt="Second slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="https://i.ebayimg.com/images/g/QaUAAOSwQolbAzI9/s-l1600.jpg"
+                <img class="d-block w-100"
+                     src="https://svidok.info/sites/default/files/styles/large/public/2160479a9cc0053b95352973640e6a8b.jpg"
                      alt="Third slide">
             </div>
         </div>
