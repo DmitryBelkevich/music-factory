@@ -1,12 +1,14 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+
 <div id="main-block1" class="container-fluid bg-primary main-bg1">
 
     <h1>Афиша концертов и выступлений:</h1>
 
-    <p>01.01.2018 19:00 - Минск, ул.Зыбицкая</p>
-    <p>02.01.2018 19:00 - Минск, ул.Октябрьская</p>
-    <p>03.01.2018 19:00 - Санкт-Петербург, ул.Набережная канала Грибоедова</p>
-    <p>04.01.2018 19:00 - Санкт-Петербург, ул.Дворцовая набережная</p>
+    <c:forEach items="${performances}" var="performance">
+        <p><fmt:formatDate pattern="dd.MM.yyyy HH:mm" value="${performance.date}"/> - ${performance.location}</p>
+    </c:forEach>
 
 </div>
