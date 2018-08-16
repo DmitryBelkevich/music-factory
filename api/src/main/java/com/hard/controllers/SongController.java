@@ -22,30 +22,23 @@ public class SongController {
     @Autowired
     private SongService songService;
 
-    @GetMapping(value = "", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
+    @GetMapping(value = "")
     public ResponseEntity<Collection<Song>> getAll() {
-        HttpStatus httpStatus;
-
-        Collection<Song> songs = songService.getAll(null);
+        HttpStatus httpStatus = HttpStatus.NO_CONTENT;
 
         HttpHeaders headers = new HttpHeaders();
         headers.add(HttpHeaders.ACCESS_CONTROL_ALLOW_ORIGIN, "*");
         headers.add(HttpHeaders.CONTENT_TYPE, MediaType.APPLICATION_JSON_UTF8_VALUE);
 
+        Collection<Song> songs = songService.getAll(null);
+
         if (!songs.isEmpty()) {
             httpStatus = HttpStatus.OK;
-
-            return ResponseEntity
-                    .status(httpStatus)
-                    .headers(headers)
-                    .body(songs);
         }
-
-        httpStatus = HttpStatus.NO_CONTENT;
 
         return ResponseEntity
                 .status(httpStatus)
                 .headers(headers)
-                .body(null);
+                .body(songs);
     }
 }
