@@ -17,7 +17,10 @@ public class AndSpecification<T> implements Specification<T> {
 
     @Override
     public String getRequestParam() {
-        StringBuilder stringBuilder = new StringBuilder();
+        if (specifications.size() <= 0)
+            return "";
+
+        StringBuilder stringBuilder = new StringBuilder("?");
 
         for (int i = 0; i < specifications.size(); i++) {
             Specification specification = specifications.get(i);
