@@ -14,7 +14,8 @@
         <tr>
             <th scope="col">Название</th>
             <th scope="col">Добавить</th>
-            <th scope="col">Скрыть</th>
+            <th scope="col">Скрыть песню</th>
+            <th scope="col">Скрыть исполнителя</th>
         </tr>
         </thead>
         <tbody>
@@ -22,7 +23,8 @@
             <tr>
                 <td>${song.band.title} - ${song.title}</td>
                 <td>Добавить</td>
-                <td>Скрыть</td>
+                <td>Скрыть песню</td>
+                <td>Скрыть исполнителя</td>
             </tr>
         </c:forEach>
         </tbody>
@@ -35,7 +37,8 @@
         <tr>
             <th scope="col">Название</th>
             <th scope="col">Добавить</th>
-            <th scope="col">Скрыть</th>
+            <th scope="col">Скрыть песню</th>
+            <th scope="col">Скрыть исполнителя</th>
         </tr>
         </thead>
         <tbody>
@@ -43,7 +46,8 @@
             <tr>
                 <td>${song.band.title} - ${song.title}</td>
                 <td>Добавить</td>
-                <td>Скрыть</td>
+                <td>Скрыть песню</td>
+                <td>Скрыть исполнителя</td>
             </tr>
         </c:forEach>
         </tbody>
