@@ -21,7 +21,7 @@ public class PerformanceRepositoryImpl implements PerformanceRepository {
     public Collection<Performance> getAll(Specification<Performance> specification) {
         RestTemplate restTemplate = new RestTemplate();
 
-        String requestParams = null;
+        String requestParams = "";
         if (specification != null)
             requestParams = specification.getRequestParam();
 

@@ -21,7 +21,7 @@ public class SongRepositoryImpl implements SongRepository {
     public Collection<Song> getAll(Specification<Song> specification) {
         RestTemplate restTemplate = new RestTemplate();
 
-        String requestParams = null;
+        String requestParams = "";
         if (specification != null)
             requestParams = specification.getRequestParam();
 
