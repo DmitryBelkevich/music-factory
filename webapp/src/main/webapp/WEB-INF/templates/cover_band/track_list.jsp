@@ -16,6 +16,7 @@
             <th scope="col">Добавить</th>
             <th scope="col">Скрыть песню</th>
             <th scope="col">Скрыть исполнителя</th>
+            <th scope="col">Прослушать</th>
         </tr>
         </thead>
         <tbody>
@@ -25,6 +26,10 @@
                 <td>Добавить</td>
                 <td>Скрыть песню</td>
                 <td>Скрыть исполнителя</td>
+                <td>
+                    <audio controls="" preload="none" src="/resources/audio/${song.band.title} - ${song.title}.mp3">Воспроизведение аудио не поддерживается браузером.</audio>
+                    <%--<audio controls="" preload="none" src="//media.profi.ru/audio/2/8/289ffac3897a52e8f6a5bfaa4329831f.mp3">Воспроизведение аудио не поддерживается браузером.</audio>--%>
+                </td>
             </tr>
         </c:forEach>
         </tbody>
