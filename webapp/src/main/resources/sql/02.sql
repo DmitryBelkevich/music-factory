@@ -11,3 +11,10 @@ CREATE TABLE coverbands_songs_relations (
   FOREIGN KEY (cover_band_id) REFERENCES coverbands (id) ON UPDATE CASCADE ON DELETE CASCADE,
   FOREIGN KEY (song_id) REFERENCES songs (id) ON UPDATE CASCADE ON DELETE CASCADE
 );
+
+CREATE TABLE performance (
+  id    BIGINT PRIMARY KEY,
+  title VARCHAR(1024),
+  location VARCHAR(1024),
+  date TIMESTAMP
+);
