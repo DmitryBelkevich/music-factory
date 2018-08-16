@@ -1,5 +1,8 @@
 #block1 {
-    background: url("/resources/images/icons/guitars.png");
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.main-bg1 {
+    background: url("/resources/images/icons/guitars.png");
 }
