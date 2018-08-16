@@ -2,10 +2,7 @@ package com.hard.controllers;
 
 import com.hard.models.Song;
 import com.hard.services.SongService;
-import com.hard.services.impl.SongServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.jpa.domain.Specification;
-import org.springframework.data.jpa.domain.Specifications;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
