@@ -34,9 +34,11 @@ public class SongController {
         headers.add(HttpHeaders.CONTENT_TYPE, MediaType.APPLICATION_JSON_UTF8_VALUE);
 
         Specification<Song> songSpecificationByCountries = new SongSpecificationByCountries(countries);
+//        Specification<Song> songSpecificationByUsername = new SongSpecificationByUsername(username);
 
         Specifications<Song> specifications = Specifications
                 .where(songSpecificationByCountries);
+//                .and(songSpecificationByUsername);
 
         Collection<Song> songs = songService.getAll(specifications);
 
