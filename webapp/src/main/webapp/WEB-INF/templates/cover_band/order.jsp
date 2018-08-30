@@ -7,21 +7,23 @@
     <p>состав:</p>
     <ul>
         <li>вокал (мужской)</li>
-        <li>гитара</li>
-        <li>бас гитара</li>
+        <li>гитара, back-вокал</li>
+        <li>бас гитара, back-вокал</li>
         <li>ударник</li>
-        <li>клавишник</li>
+        <li>клавишник, back-вокал</li>
     </ul>
     <p>длительность программы: 2 часа</p>
     <p>Стоимость: 500$</p>
 
-    <p>выбрать дату</p>
-    <p>выбрать время</p>
+    <%--<p>выбрать дату</p>--%>
+    <%--<p>выбрать время</p>--%>
 
     <%--<jsp:include page="calendar.jsp"/>--%>
 
-    <button type="button" class="btn btn-light">проверить</button>
+    <%--<button type="button" class="btn btn-light">проверить</button>--%>
 
-    <button type="button" class="btn btn-dark">Заказать</button>
+    <a href="/resources/pdf/rider.txt" download>скачать технический райдер</a>
+
+    <br/><button type="button" class="btn btn-dark">Заказать</button>
 
 </div>
