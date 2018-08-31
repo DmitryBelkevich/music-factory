@@ -4,7 +4,7 @@ VALUES (1, 'Pink Kode');
 INSERT INTO coverbands_songs_relations (cover_band_id, song_id, key_signature, status)
 VALUES (1, 1, 4, 1),
        (1, 2, 2, 2),
-       (1, 3, -1, NULL),
+       (1, 3, -1, 1),
        (1, 4, 4, 2),
        (1, 5, 2, 1),
        (1, 6, 4, 1),
