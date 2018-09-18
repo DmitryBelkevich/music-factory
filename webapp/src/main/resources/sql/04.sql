@@ -2,12 +2,15 @@ INSERT INTO coverbands (id, title)
 VALUES (1, '000'),
        (2, 'Pink Kode');
 
--- Pink Kode
+-- 000
 
 INSERT INTO coverbands_songs_relations (cover_band_id, song_id, key_signature, status)
 VALUES (1, 51, -2, 1),
        (1, 52, 0, 1),
-       (1, 53, 1, 0);
+       (1, 53, 1, 0),
+       (1, 4, -4, 1);
+
+-- Pink Kode
 
 INSERT INTO coverbands_songs_relations (cover_band_id, song_id, key_signature, status)
 VALUES (2, 1, 4, 1),
