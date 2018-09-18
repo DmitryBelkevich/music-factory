@@ -8,7 +8,10 @@ INSERT INTO coverbands_songs_relations (cover_band_id, song_id, key_signature, s
 VALUES (1, 51, -2, 1),
        (1, 52, 0, 1),
        (1, 53, 1, 0),
-       (1, 4, -4, 1);
+       (1, 4, -4, 1),
+       (1, 54, 0, 1),
+       (1, 55, 1, 1),
+       (1, 56, 2, 1);
 
 -- Pink Kode
 
