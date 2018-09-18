@@ -69,7 +69,7 @@ VALUES (1, 'Ace of Base', '1990', '2012'),
        (40, 'Сплин', '1994', NULL),
        (41, 'Чичерина', '1997', NULL),
        (42, 'Би-2', '1998', NULL),
-       (43, 'The Cranberries', '1998', NULL);
+       (43, 'The Cranberries', '1989', NULL);
 
 INSERT INTO bands_countries_relations (band_id, country_id)
 VALUES (1, 6),
