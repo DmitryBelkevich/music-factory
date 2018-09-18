@@ -1,5 +1,12 @@
 INSERT INTO coverbands (id, title)
-VALUES (2, 'Pink Kode');
+VALUES (1, '000'),
+       (2, 'Pink Kode');
+
+-- Pink Kode
+
+INSERT INTO coverbands_songs_relations (cover_band_id, song_id, key_signature, status)
+VALUES (1, 4, -4, 1),
+       (1, 4, -4, 1);
 
 INSERT INTO coverbands_songs_relations (cover_band_id, song_id, key_signature, status)
 VALUES (2, 1, 4, 1),
