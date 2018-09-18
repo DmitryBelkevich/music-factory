@@ -70,7 +70,8 @@ VALUES (1, 'Ace of Base', '1990', '2012'),
        (41, 'Чичерина', '1997', NULL),
        (42, 'Би-2', '1998', NULL),
        (43, 'The Cranberries', '1989', NULL),
-       (44, 'Агата Кристи', '1987', NULL);
+       (44, 'Агата Кристи', '1987', NULL),
+       (45, 'Король и Шут', '1988', NULL);
 
 INSERT INTO bands_countries_relations (band_id, country_id)
 VALUES (1, 6),
@@ -116,7 +117,8 @@ VALUES (1, 6),
        (41, 5),
        (42, 5),
        (43, 10),
-       (44, 5);
+       (44, 5),
+       (45, 5);
 
 INSERT INTO bands_genres_relations (band_id, genre_id)
 VALUES (1, 4),
@@ -162,7 +164,8 @@ VALUES (1, 4),
        (41, 1),
        (42, 1),
        (43, 6),
-       (44, 1);
+       (44, 1),
+       (45, 3);
 
 INSERT INTO songs (id, band_id, title, key_signature)
 VALUES (1, 1, 'All That She Wants', 4),
