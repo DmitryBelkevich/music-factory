@@ -5,8 +5,9 @@ VALUES (1, '000'),
 -- Pink Kode
 
 INSERT INTO coverbands_songs_relations (cover_band_id, song_id, key_signature, status)
-VALUES (1, 4, -4, 1),
-       (1, 4, -4, 1);
+VALUES (1, 51, -2, 1),
+       (1, 52, 0, 1),
+       (1, 53, 1, 0);
 
 INSERT INTO coverbands_songs_relations (cover_band_id, song_id, key_signature, status)
 VALUES (2, 1, 4, 1),
