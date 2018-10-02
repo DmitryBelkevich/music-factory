@@ -18,3 +18,17 @@ CREATE TABLE performances (
   location VARCHAR(1024),
   date TIMESTAMP
 );
+
+-- CATEGORIES
+
+CREATE TABLE categories (
+  id    BIGINT PRIMARY KEY,
+  title VARCHAR(1024)
+);
+
+CREATE TABLE categories_songs_relations (
+  category_id INTEGER,
+  song_id       INTEGER,
+  FOREIGN KEY (category_id) REFERENCES categories (id) ON UPDATE CASCADE ON DELETE CASCADE,
+  FOREIGN KEY (song_id) REFERENCES songs (id) ON UPDATE CASCADE ON DELETE CASCADE
+);
