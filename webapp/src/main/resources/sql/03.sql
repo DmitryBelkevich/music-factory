@@ -71,7 +71,8 @@ VALUES (1, 'Ace of Base', '1990', '2012'),
        (42, 'Би-2', '1998', NULL),
        (43, 'The Cranberries', '1989', NULL),
        (44, 'Агата Кристи', '1987', NULL),
-       (45, 'Король и Шут', '1988', NULL);
+       (45, 'Король и Шут', '1988', NULL),
+       (46, 'Ария', '1985', NULL);
 
 INSERT INTO bands_countries_relations (band_id, country_id)
 VALUES (1, 6),
