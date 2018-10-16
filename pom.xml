@@ -15,6 +15,7 @@
     <modules>
         <module>webapp</module>
         <module>api</module>
+        <module>files-api</module>
     </modules>
 
     <properties>
