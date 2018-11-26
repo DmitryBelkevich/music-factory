@@ -25,6 +25,8 @@ VALUES (1, 51, -2, 1),
        (1, 64, -1, 1),
        (1, 65, 0, NULL);
 
+-- MA'RA BAND
+
 -- Pink Kode
 
 INSERT INTO coverbands_songs_relations (cover_band_id, song_id, key_signature, status)
