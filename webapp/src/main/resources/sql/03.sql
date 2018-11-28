@@ -74,7 +74,8 @@ VALUES (1, 'Ace of Base', '1990', '2012'),
        (45, 'Король и Шут', '1988', NULL),
        (46, 'Ария', '1985', NULL),
        (47, 'ДДТ', '1980', NULL),
-       (48, 'Кино', '1982', NULL);
+       (48, 'Кино', '1982', NULL),
+       (49, 'Танцы Минус', '1995', NULL);
 
 INSERT INTO bands_countries_relations (band_id, country_id)
 VALUES (1, 6),
