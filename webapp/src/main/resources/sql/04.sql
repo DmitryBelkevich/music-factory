@@ -1,5 +1,6 @@
 INSERT INTO coverbands (id, title)
 VALUES (1, '000'),
+       (2, 'MA''RA BAND'),
        (3, 'Pink Kode');
 
 -- 000
