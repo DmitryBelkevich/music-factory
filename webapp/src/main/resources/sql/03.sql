@@ -77,7 +77,8 @@ VALUES (1, 'Ace of Base', '1990', '2012'),
        (48, 'Кино', '1982', NULL),
        (49, 'Танцы Минус', '1995', NULL),
        (50, 'Чайф', '1985', NULL),
-       (51, 'Lumen', '1998', NULL);
+       (51, 'Lumen', '1998', NULL),
+       (52, 'Ненси', '1992', NULL);
 
 INSERT INTO bands_countries_relations (band_id, country_id)
 VALUES (1, 6),
@@ -259,4 +260,5 @@ VALUES (1, 1, 'All That She Wants', 4),
        (83, 37, 'Костёр', NULL),
        (84, 51, 'Гореть', NULL),
        (85, 51, 'Сид и Ненси', NULL),
-       (86, 51, 'Три пути', NULL);
+       (86, 51, 'Три пути', NULL),
+       (87, 52, 'Дым сигарет с ментолом', -2);
