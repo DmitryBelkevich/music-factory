@@ -271,4 +271,5 @@ VALUES (1, 1, 'All That She Wants', 4),
        (89, 54, 'Сансара', NULL),
        (90, 55, 'Время', NULL),
        (91, 56, 'Numb', NULL),
-       (92, 57, 'Behind Blue Eyes', NULL);
+       (92, 57, 'Behind Blue Eyes', NULL),
+       (93, 36, 'Сочи', -2);
