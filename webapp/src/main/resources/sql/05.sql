@@ -16,12 +16,13 @@ WHERE bands_genres_relations.genre_id IN (1, 4);
 
 SELECT bands.title AS band,
        songs.title AS song,
-       songs.key_signature AS key_signature
+       songs.key_signature AS key_signature,
+       songs.status AS status
 FROM songs
        LEFT JOIN bands ON songs.band_id = bands.id
 WHERE bands.id IN (36);
 
--- songs by status for specified cover-band
+-- songs by cover-band
 
 SELECT songs.id,
        bands.title                              AS band,

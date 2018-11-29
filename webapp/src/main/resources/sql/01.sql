@@ -39,5 +39,6 @@ CREATE TABLE songs (
   band_id       INTEGER,
   title         VARCHAR(1024),
   key_signature SMALLINT,
+  status        SMALLINT,
   FOREIGN KEY (band_id) REFERENCES bands (id) ON UPDATE CASCADE ON DELETE CASCADE
 );
