@@ -58,7 +58,8 @@ VALUES (2, 47, -3, NULL),
        (2, 84, NULL, NULL),
        (2, 85, -4, NULL),
        (2, 86, -1, NULL),
-       (2, 87, 6, NULL);
+       (2, 87, 6, NULL),
+       (2, 88, -2, NULL);
 
 -- Pink Kode
 
