@@ -20,7 +20,7 @@ SELECT bands.title AS band,
        songs.status AS status
 FROM songs
        LEFT JOIN bands ON songs.band_id = bands.id
-WHERE bands.id IN (36);
+WHERE bands.id IN (42);
 
 -- songs by cover-band
 
