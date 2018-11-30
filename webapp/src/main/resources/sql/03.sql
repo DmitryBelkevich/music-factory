@@ -83,7 +83,8 @@ VALUES (1, 'Ace of Base', '1990', '2012'),
        (54, 'Баста', '1997', NULL),
        (55, 'Stigmata', '2002', NULL),
        (56, 'Linkin Park', '1996', NULL),
-       (57, 'Limp Bizkit', '1994', NULL);
+       (57, 'Limp Bizkit', '1994', NULL),
+       (58, 'Кипелов', '2002', NULL);
 
 INSERT INTO bands_countries_relations (band_id, country_id)
 VALUES (1, 6),
@@ -272,4 +273,5 @@ VALUES (1, 1, 'All That She Wants', 4, NULL),
        (90, 55, 'Время', NULL, NULL),
        (91, 56, 'Numb', NULL, NULL),
        (92, 57, 'Behind Blue Eyes', NULL, NULL),
-       (93, 36, 'Сочи', -2, NULL);
+       (93, 36, 'Сочи', -2, NULL),
+       (94, 58, 'Я свободен', -3, NULL);
