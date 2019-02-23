@@ -274,4 +274,6 @@ VALUES (1, 1, 'All That She Wants', 4, NULL),
        (91, 56, 'Numb', NULL, NULL),
        (92, 57, 'Behind Blue Eyes', NULL, NULL),
        (93, 36, 'Сочи', -2, NULL),
-       (94, 58, 'Я свободен', -3, NULL);
+       (94, 58, 'Я свободен', -3, NULL),
+       (95, 46, 'Закат', 1, NULL),
+       (96, 45, 'Лесник', 0, NULL);
