@@ -1,7 +1,13 @@
 INSERT INTO coverbands (id, title)
-VALUES (2, '000'),
+VALUES (1, 'Hard'),
+       (2, '000'),
        (3, 'MA''RA BAND'),
        (4, 'Pink Kode');
+
+-- Hard
+
+INSERT INTO coverbands_songs_relations (cover_band_id, song_id, key_signature, status)
+VALUES (1, 61, 1, 1);
 
 -- 000
 
@@ -27,7 +33,9 @@ VALUES (2, 51, -2, 1),
        (2, 93, -2, 1),
        (2, 70, -2, 1),
        (2, 65, 0, 1),
-       (2, 69, 0, 1);
+       (2, 69, 0, 1),
+       (2, 95, 1, 1),
+       (2, 96, 0, 1);
 
 -- MA'RA BAND
 
