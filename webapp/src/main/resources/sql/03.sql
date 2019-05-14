@@ -86,7 +86,8 @@ VALUES (1, 'Ace of Base', '1990', '2012'),
        (57, 'Limp Bizkit', '1994', NULL),
        (58, 'Кипелов', '2002', NULL),
        (59, 'Михаил Круг', '1987', '2002'),
-       (60, 'Максим Фадеев', '1993', NULL);
+       (60, 'Максим Фадеев', '1993', NULL),
+       (61, 'Radiohead', '1985', NULL);
 
 INSERT INTO bands_countries_relations (band_id, country_id)
 VALUES (1, 6),
