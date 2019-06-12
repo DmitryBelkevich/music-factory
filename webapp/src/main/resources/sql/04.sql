@@ -10,6 +10,8 @@ INSERT INTO coverbands_songs_relations (cover_band_id, song_id, key_signature, s
 VALUES
     -- Nirvana
        (1, 114, -4, 1), -- Smells Like Teen Spirit
+    -- Radiohead
+       (1, 112, 1, 1), -- Creep
     -- The Cranberries
        (1, 53, 1, 1), -- Zombie
     -- Агата Кристи
