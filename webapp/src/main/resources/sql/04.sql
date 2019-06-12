@@ -8,6 +8,8 @@ VALUES (1, 'Hard'),
 
 INSERT INTO coverbands_songs_relations (cover_band_id, song_id, key_signature, status)
 VALUES
+    -- Nirvana
+       (1, 114, -4, 1), -- Smells Like Teen Spirit
     -- The Cranberries
        (1, 53, 1, 1), -- Zombie
     -- Агата Кристи
