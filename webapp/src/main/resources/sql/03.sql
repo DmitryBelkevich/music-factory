@@ -297,4 +297,5 @@ VALUES (1, 1, 'All That She Wants', 4, NULL),
        (110, 34, 'В Питере - пить', 3, NULL),
        (111, 34, 'WWW', -3, NULL),
        (112, 61, 'Creep', 1, NULL),
-       (113, 36, 'Огоньки', 0, NULL);
+       (113, 36, 'Огоньки', 0, NULL),
+       (114, 62, 'Smells Like Teen Spirit', -4, NULL);
