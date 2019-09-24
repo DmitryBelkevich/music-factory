@@ -29,7 +29,7 @@ SELECT songs.id,
        songs.title                              AS song,
        songs.key_signature                      AS original_key_signature,
        coverbands_songs_relations.key_signature AS transposed_key_signature,
-       coverbands_songs_relations.description        AS description
+       coverbands_songs_relations.description   AS description
 FROM songs
        LEFT JOIN coverbands_songs_relations ON songs.id = coverbands_songs_relations.song_id
        LEFT JOIN bands ON songs.band_id = bands.id
