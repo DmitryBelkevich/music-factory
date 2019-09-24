@@ -184,7 +184,7 @@ VALUES (1, 4),
        (44, 1),
        (45, 3);
 
-INSERT INTO songs (id, band_id, title, key_signature, status)
+INSERT INTO songs (id, band_id, title, key_signature, description)
 VALUES (1, 1, 'All That She Wants', 4, NULL),
        (2, 2, 'No Roots', 2, NULL),
        (3, 3, 'Stayin'' Alive', -4, NULL),
