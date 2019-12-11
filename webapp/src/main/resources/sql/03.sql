@@ -90,7 +90,8 @@ VALUES (1, 'Ace of Base', '1990', '2012'),
        (61, 'Radiohead', '1985', NULL),
        (62, 'Nirvana', '1987', '1994'),
        (63, 'Порнофильмы', '2008', NULL),
-       (64, 'Слот', '2002', NULL);
+       (64, 'Слот', '2002', NULL),
+       (65, 'Земляне', '1978', NULL);
 
 INSERT INTO bands_countries_relations (band_id, country_id)
 VALUES (1, 6),
