@@ -14,6 +14,8 @@ VALUES
        (1, 112, 1, NULL), -- Creep
     -- The Cranberries
        (1, 53, 1, NULL), -- Zombie
+    -- Animal Джаz
+       (1, 126, -1, NULL), -- Три полоски
     -- Агата Кристи
        (1, 54, 0, NULL), -- Как на войне
     -- Ария
