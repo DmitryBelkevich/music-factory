@@ -93,7 +93,8 @@ VALUES (1, 'Ace of Base', '1990', '2012'),
        (64, 'Слот', '2002', NULL),
        (65, 'Земляне', '1978', NULL),
        (66, 'Animal Джаz', '2000', NULL),
-       (67, 'Михаил Боярский', '1983', NULL);
+       (67, 'Михаил Боярский', '1983', NULL),
+       (68, 'Сектор Газа', '1987', '2000');
 
 INSERT INTO bands_countries_relations (band_id, country_id)
 VALUES (1, 6),
