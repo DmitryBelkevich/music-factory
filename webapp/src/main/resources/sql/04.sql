@@ -16,6 +16,8 @@ VALUES
        (1, 53, 1, NULL), -- Zombie
     -- Animal Джаz
        (1, 126, -1, NULL), -- Три полоски
+    -- BRUTTO
+       (1, 138, -2, NULL), -- 12 обезьян
     -- Lumen
        (1, 84, -2, NULL), -- Гореть
     -- N.R.M.
