@@ -8,6 +8,8 @@ VALUES (1, 'Hard'),
 
 INSERT INTO coverbands_songs_relations (cover_band_id, song_id, key_signature, description)
 VALUES
+    -- Metallica
+       (1, 141, 1, NULL), -- Nothing Else Matters
     -- Nirvana
        (1, 114, -4, NULL), -- Smells Like Teen Spirit
     -- Radiohead
