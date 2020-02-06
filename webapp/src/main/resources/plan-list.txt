@@ -289,7 +289,7 @@ foreign {
     the final
 
     Metallica {
-
+        Nothing Else Matters (2)
     }
 
     Nirvana {
