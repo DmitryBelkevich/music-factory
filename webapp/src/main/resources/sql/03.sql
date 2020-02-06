@@ -99,7 +99,8 @@ VALUES (1, 'Ace of Base', '1990', '2012'),
        (70, 'N.R.M.', '1994', NULL),
        (71, 'BRUTTO', '2014', NULL),
        (72, 'Наутилус Помпилиус', '1982', '1997'),
-       (73, 'Аквариум', '1972', NULL);
+       (73, 'Аквариум', '1972', NULL),
+       (74, 'Metallica', '1981', NULL);
 
 INSERT INTO bands_countries_relations (band_id, country_id)
 VALUES (1, 6),
