@@ -10,6 +10,7 @@ INSERT INTO coverbands_songs_relations (cover_band_id, song_id, key_signature, d
 VALUES
     -- Metallica
        (1, 141, 1, NULL), -- Nothing Else Matters
+       (1, 142, -2, NULL), -- No Leaf Clover
     -- Nirvana
        (1, 114, -4, NULL), -- Smells Like Teen Spirit
     -- Radiohead
@@ -60,7 +61,7 @@ VALUES
        (1, 122, 0, NULL), -- Кукушка
        (1, 123, 1, NULL), -- Пачка сигарет
        (1, 124, 1, NULL), -- Когда твоя девушка больна
-       (1, 142, 2, NULL), -- Мама, мы все тяжело больны
+       (1, 143, 2, NULL), -- Мама, мы все тяжело больны
     -- Кипелов
        (1, 94, -3, NULL), -- Я свободен
     -- Король и Шут
