@@ -337,4 +337,5 @@ VALUES (1, 1, 'All That She Wants', 4, NULL),
        (138, 71, '12 обезьян', -2, NULL),
        (139, 72, 'Последнее письмо', 0, NULL),
        (140, 73, 'Город золотой', 2, NULL),
-       (141, 74, 'Nothing Else Matters', 1, NULL);
+       (141, 74, 'Nothing Else Matters', 1, NULL),
+       (142, 48, 'Мама, мы все тяжело больны', 2, NULL);
