@@ -339,4 +339,5 @@ VALUES (1, 1, 'All That She Wants', 4, NULL),
        (140, 73, 'Город золотой', 2, NULL),
        (141, 74, 'Nothing Else Matters', 1, NULL),
        (142, 74, 'No Leaf Clover', -6, NULL),
-       (143, 48, 'Мама, мы все тяжело больны', 2, NULL);
+       (143, 48, 'Мама, мы все тяжело больны', 2, NULL),
+       (144, 74, 'The Unforgiven', 0, NULL);

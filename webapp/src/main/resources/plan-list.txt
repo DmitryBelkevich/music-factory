@@ -289,7 +289,9 @@ foreign {
     the final
 
     Metallica {
+        No Leaf Clover (2)
         Nothing Else Matters (2)
+        The Unforgiven (2)
     }
 
     Nirvana {

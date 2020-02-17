@@ -11,6 +11,7 @@ VALUES
     -- Metallica
        (1, 141, 1, NULL), -- Nothing Else Matters
        (1, 142, -2, NULL), -- No Leaf Clover
+       (1, 144, 0, NULL), -- The Unforgiven
     -- Nirvana
        (1, 114, -4, NULL), -- Smells Like Teen Spirit
     -- Radiohead
