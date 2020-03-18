@@ -16,6 +16,8 @@ VALUES
        (1, 114, -4, NULL), -- Smells Like Teen Spirit
     -- Radiohead
        (1, 112, 1, NULL), -- Creep
+    -- System of a Down
+       (1, 145, -3, NULL), -- Toxicity
     -- The Cranberries
        (1, 53, 1, NULL), -- Zombie
     -- Animal Джаz

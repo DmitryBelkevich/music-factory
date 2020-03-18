@@ -100,7 +100,8 @@ VALUES (1, 'Ace of Base', '1990', '2012'),
        (71, 'BRUTTO', '2014', NULL),
        (72, 'Наутилус Помпилиус', '1982', '1997'),
        (73, 'Аквариум', '1972', NULL),
-       (74, 'Metallica', '1981', NULL);
+       (74, 'Metallica', '1981', NULL),
+       (75, 'System of a Down', '1992', NULL);
 
 INSERT INTO bands_countries_relations (band_id, country_id)
 VALUES (1, 6),
@@ -340,4 +341,5 @@ VALUES (1, 1, 'All That She Wants', 4, NULL),
        (141, 74, 'Nothing Else Matters', 1, NULL),
        (142, 74, 'No Leaf Clover', -6, NULL),
        (143, 48, 'Мама, мы все тяжело больны', 2, NULL),
-       (144, 74, 'The Unforgiven', 0, NULL);
+       (144, 74, 'The Unforgiven', 0, NULL),
+       (145, 75, 'Toxicity', -3, NULL);
