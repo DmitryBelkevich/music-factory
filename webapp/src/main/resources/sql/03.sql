@@ -342,4 +342,5 @@ VALUES (1, 1, 'All That She Wants', 4, NULL),
        (142, 74, 'No Leaf Clover', -6, NULL),
        (143, 48, 'Мама, мы все тяжело больны', 2, NULL),
        (144, 74, 'The Unforgiven', 0, NULL),
-       (145, 75, 'Toxicity', -3, NULL);
+       (145, 75, 'Toxicity', -3, NULL),
+       (146, 48, 'Кончится лето', 1, NULL);
