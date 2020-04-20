@@ -1,7 +1,81 @@
 // 1 - иногда играем, но без детального разбора
 // 2 - не играем, но скоро будем играть
 
-russian rock {
+foreign {
+    // metal
+
+    Europe {
+        The Final Countdown (0)
+    }
+
+    Guns n' Roses {
+    	Guns n' Roses - Don't cry (0)
+    }
+
+    Queen {
+    	Show must go on (0)
+    	Bohemian Rhapsody (0)
+    }
+
+    System Of A Down {
+    	Lonely Day (1)
+    	Chop Suey! (1)
+    	Aerials (1)
+    }
+
+    Rammstein {
+        Fruhling in Paris (0)
+        Mutter (0)
+        Du Hast (0)
+        Ich Will (0)
+        Rosenrot (0)
+        Ohne Dich (0)
+        Amerika (0)
+        Engel (0)
+    }
+
+    // rock
+
+    Linkin Park {
+
+    }
+
+    Limp Bizkit {
+        Behind Blue Eyes (0)
+    }
+
+    // pop-rock
+
+    Bon Jovi {
+        It's My Life (0)
+    }
+
+    No Doubt {
+        Don't Speak (0)
+    }
+
+    Joan Osborne {
+        One of Us (0)
+    }
+
+    The Beatles {
+        Yesterday (0)
+    }
+
+    // pop
+
+    Maroon 5 {
+        This Love (0)
+    }
+
+    Eurythmics {
+        Sweet dreams (0)
+    }
+}
+
+russian {
+    // metal
+
     Ария {
         Там высоко (1)
         Свобода (1)
@@ -15,6 +89,8 @@ russian rock {
     Колизей {
         только имя твоё (0)
     }
+
+    // rock
 
     Би-2 {
         Варвара (1)
@@ -133,6 +209,45 @@ russian rock {
         Москва (0)
     }
 
+    Аукцыон {
+        Дорога (0)
+    }
+
+    океан эльзы {
+
+    }
+
+    Смысловые Галлюцинации {
+        Вечно молодой (0)
+        Зачем топтать мою любовь (0)
+    }
+
+    Маша И Медведи {
+        Земля (0)
+    }
+
+    Чайф {
+        Аргентина — Ямайка 5:0 (0)
+    }
+
+    Чиж {
+        О любви (1)
+        Фантом (1)
+    }
+
+    Танцы минус {
+        Город сказка (1)
+        Половинка (1)
+    }
+
+    N.R.M. {
+        Паветраны шар (0)
+        Лёгкія-лёгкія (0)
+        Песьні пра каханьне (0)
+    }
+
+    // punk-rock
+
     Сектор Газа {
         Лирика (0)
     }
@@ -151,48 +266,11 @@ russian rock {
         Русское поле экспериментов (0)
     }
 
-    Аукцыон {
-        Дорога (0)
-    }
-
-    океан эльзы {
-
-    }
-
-    Смысловые Галлюцинации {
-        Вечно молодой (0)
-        Зачем топтать мою любовь (0)
-    }
-
-	Маша И Медведи {
-	    Земля (0)
-	}
-
 	Lumen {
 	    Сид и Ненси (0)
 	}
 
-	Чайф {
-	    Аргентина — Ямайка 5:0 (0)
-	}
-
-	Чиж {
-	    О любви (1)
-	    Фантом (1)
-	}
-
-	Танцы минус {
-	    Город сказка (1)
-	    Половинка (1)
-	}
-
-	N.R.M. {
-	    Паветраны шар (0)
-	    Лёгкія-лёгкія (0)
-	    Песьні пра каханьне (0)
-	}
-
-	--- fun
+	// pop-rock
 
 	Звери {
         просто такая сильная любовь (0)
@@ -235,7 +313,18 @@ russian rock {
         Юность в сапогах (0)
     }
 
-	-- estrada
+    // pop
+
+    IOWA {
+        Бьёт бит (0)
+        Улыбайся (0)
+    }
+
+    Ёлка {
+        Прованс (0)
+    }
+
+	// estrada
 
 	Григорий Лепс {
 	    Рюмка водки (0)
@@ -301,59 +390,18 @@ russian rock {
     }
 }
 
-foreign {
-    Eurythmics {
-        Sweet dreams (0)
+instrumental {
+    Dick Dale, The Del Tones {
+        Misirlou (1)
     }
 
-    Europe {
-        The Final Countdown (0)
+    Gary Moore {
+        The Prophet (1)
+        The Loner (1)
     }
 
-    Guns n' Roses {
-    	Guns n' Roses - Don't cry (0)
-    }
-
-    Queen {
-    	Show must go on (0)
-    	Bohemian Rhapsody (0)
-    }
-
-    System Of A Down {
-    	Lonely Day (1)
-    	Chop Suey! (1)
-    	Aerials (1)
-    }
-
-    Rammstein {
-        Fruhling in Paris (0)
-        Mutter (0)
-        Du Hast (0)
-        Ich Will (0)
-        Rosenrot (0)
-        Ohne Dich (0)
-        Amerika (0)
-        Engel (0)
-    }
-
-    Linkin Park {
-
-    }
-
-    Limp Bizkit {
-        Behind Blue Eyes (0)
-    }
-
-    No Doubt {
-        Don't Speak (0)
-    }
-
-    Joan Osborne {
-        One of Us (0)
-    }
-
-    The Beatles {
-        Yesterday (0)
+    Эпидемия {
+        Эпилог (1)
     }
 }
 
