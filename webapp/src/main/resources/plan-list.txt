@@ -18,7 +18,6 @@ foreign {
     }
 
     System Of A Down {
-    	Lonely Day (1)
     	Chop Suey! (1)
     	Aerials (1)
     }
@@ -159,6 +158,7 @@ russian {
 
     Мумий Тролль {
         Невеста (0)
+        Утекай (0)
         -- Это по любви
     }
 
@@ -241,6 +241,7 @@ russian {
 
     Чичерина {
         Ту-лу-ла
+        Жара
     }
 
     N.R.M. {

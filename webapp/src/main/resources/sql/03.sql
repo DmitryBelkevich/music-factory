@@ -344,4 +344,5 @@ VALUES (1, 1, 'All That She Wants', 4, NULL),
        (144, 74, 'The Unforgiven', 0, NULL),
        (145, 75, 'Toxicity', -3, NULL),
        (146, 48, 'Кончится лето', 1, NULL),
-       (147, 45, 'Два монаха в одну ночь', 1, NULL);
+       (147, 45, 'Два монаха в одну ночь', 1, NULL),
+       (148, 75, 'Lonely Day', -7, NULL);
