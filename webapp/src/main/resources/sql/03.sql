@@ -101,7 +101,8 @@ VALUES (1, 'Ace of Base', '1990', '2012'),
        (72, 'Наутилус Помпилиус', '1982', '1997'),
        (73, 'Аквариум', '1972', NULL),
        (74, 'Metallica', '1981', NULL),
-       (75, 'System of a Down', '1992', NULL);
+       (75, 'System of a Down', '1992', NULL),
+       (76, 'Альянс', '1981', NULL);
 
 INSERT INTO bands_countries_relations (band_id, country_id)
 VALUES (1, 6),
@@ -345,4 +346,5 @@ VALUES (1, 1, 'All That She Wants', 4, NULL),
        (145, 75, 'Toxicity', -3, NULL),
        (146, 48, 'Кончится лето', 1, NULL),
        (147, 45, 'Два монаха в одну ночь', 1, NULL),
-       (148, 75, 'Lonely Day', -7, NULL);
+       (148, 75, 'Lonely Day', -7, NULL),
+       (149, 76, 'На заре', -2, NULL);
