@@ -16,11 +16,15 @@ VALUES
        (1, 114, -4, NULL), -- Smells Like Teen Spirit
     -- Radiohead
        (1, 112, 1, NULL), -- Creep
+       (1, 152, 1, NULL), -- Creep
     -- System of a Down
        (1, 148, 0, NULL), -- Lonely Day
        (1, 145, -3, NULL), -- Toxicity
     -- The Cranberries
        (1, 53, 1, NULL), -- Zombie
+    -- The Offspring
+       (1, 153, 0, NULL), -- Self Esteem
+       (1, 151, 2, NULL), -- Pretty Fly (for a White Guy)
     -- Animal Джаz
        (1, 126, -1, NULL), -- Три полоски
     -- BRUTTO
