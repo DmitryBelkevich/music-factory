@@ -103,7 +103,8 @@ VALUES (1, 'Ace of Base', '1990', '2012'),
        (74, 'Metallica', '1981', NULL),
        (75, 'System of a Down', '1992', NULL),
        (76, 'Альянс', '1981', NULL),
-       (77, 'The Offspring', '1984', NULL);
+       (77, 'The Offspring', '1984', NULL),
+       (78, 'Reamonn', '1999', '2012');
 
 INSERT INTO bands_countries_relations (band_id, country_id)
 VALUES (1, 6),
@@ -352,4 +353,5 @@ VALUES (1, 1, 'All That She Wants', 4, NULL),
        (150, 42, 'Варвара', -2, NULL),
        (151, 77, 'Pretty Fly (for a White Guy)', 2, NULL),
        (152, 61, 'Karma Police', 1, NULL),
-       (153, 77, 'Self Esteem', 0, NULL);
+       (153, 77, 'Self Esteem', 0, NULL),
+       (154, 78, 'Supergirl', 3, NULL);

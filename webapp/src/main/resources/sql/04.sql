@@ -16,7 +16,9 @@ VALUES
        (1, 114, -4, NULL), -- Smells Like Teen Spirit
     -- Radiohead
        (1, 112, 1, NULL), -- Creep
-       (1, 152, 1, NULL), -- Creep
+       (1, 152, 1, NULL), -- Karma Police
+    -- Reamonn
+       (1, 154, 3, NULL), -- Supergirl
     -- System of a Down
        (1, 148, 0, NULL), -- Lonely Day
        (1, 145, -3, NULL), -- Toxicity
