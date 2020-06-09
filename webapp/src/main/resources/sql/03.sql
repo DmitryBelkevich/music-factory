@@ -354,4 +354,5 @@ VALUES (1, 1, 'All That She Wants', 4, NULL),
        (151, 77, 'Pretty Fly (for a White Guy)', 2, NULL),
        (152, 61, 'Karma Police', 1, NULL),
        (153, 77, 'Self Esteem', 0, NULL),
-       (154, 78, 'Supergirl', 3, NULL);
+       (154, 78, 'Supergirl', 3, NULL),
+       (155, 70, 'Лёгкiя-лёгкiя', -1, NULL);
