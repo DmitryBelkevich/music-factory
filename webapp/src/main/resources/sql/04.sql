@@ -20,6 +20,7 @@ VALUES
     -- Reamonn
        (1, 154, 3, NULL), -- Supergirl
     -- System of a Down
+       (1, 156, -2, NULL), -- Chop Suey!
        (1, 148, 0, NULL), -- Lonely Day
        (1, 145, -3, NULL), -- Toxicity
     -- The Cranberries
