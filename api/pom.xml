@@ -21,7 +21,7 @@
         <servlet-api.version>4.0.0</servlet-api.version>
         <spring.version>4.3.18.RELEASE</spring.version>
         <spring-data-jpa.version>1.11.9.RELEASE</spring-data-jpa.version>
-        <jackson.version>2.9.6</jackson.version>
+        <jackson.version>2.9.10.7</jackson.version>
         <postgresql.version>42.2.4</postgresql.version>
         <hibernate.version>5.3.5.Final</hibernate.version>
         <jaxb-api.version>2.3.0</jaxb-api.version>
